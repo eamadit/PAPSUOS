@@ -16,7 +16,7 @@ The organization shall not host any third-party closed or open source package.
 
 The core separation kernel shall be written in assembly and its functions shall be limited to the functions offered by the hardware.
 
-The core separation kernel functions shall then be classified according to the hardware capabilities directly detected in order for the core separation kernel creation tool to offer different separation options.
+The core separation kernel functions shall then be classified according to the hardware capabilities directly detected in order for the core separation kernel creation tool to offer different separation options including full customization with "loss of liability" warning.
 
 No interfacing option for any other lower abstraction level shall be offered.
 
