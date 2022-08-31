@@ -1,6 +1,6 @@
 # PAPSUOS
 
-PAPSUOS is a new PGP-Aware Public Secure Unlicensed Operating System. PAPSUOS shall be made available on PAPSUOS servers for the price offered by the user with a minimum of 0. PAPSUOS users shall comply to the street patent policy.
+PAPSUOS is a new PGP-Aware Public Secure Unlicensed Operating System. PAPSUOS shall be made available on PAPSUOS servers for the price offered by the user with a minimum of 0. PAPSUOS users shall comply to the street patent policy which implies total respect of the moral rights of all contributors.
 
 PAPSUOS shall have a Unix architecture, a unique package manager secured with PGP and a unique scalable core separation kernel compatible with one or several devices including QDCA microcircuits.
 
