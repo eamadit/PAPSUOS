@@ -20,7 +20,7 @@ The core separation kernel functions shall then be classified according to the h
 
 No interfacing option for any other lower abstraction level shall be offered.
 
-The core separation kernel shall allow interfacing with higher abstraction level separation kernel hypervisors like LynxSecure.
+The core separation kernel shall allow interfacing with higher abstraction level separation kernel hypervisors like LynxSecure and Clover.
 
 The organization shall be incorporated in a tax free country recognized by the UN.
 
