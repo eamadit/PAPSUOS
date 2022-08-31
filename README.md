@@ -27,8 +27,8 @@ The independant contributors shall be paid according to the postponed global acc
 
 All PAPSUOS code shall be made public in real-time.
 
-The organization bylaws shall be governed by definitive constitutional principles as described above.
-
 The organization shall have a pyramid of rules but shall not have a pyramid of people with more than one level.
+
+The organization bylaws shall be governed by definitive constitutional principles as described above.
 
 (1) https://www.nist.gov/itl/ssd/software-quality-group/binary-code-scanners
