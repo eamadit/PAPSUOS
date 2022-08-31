@@ -30,7 +30,7 @@ The independant contributors shall be paid according to the postponed global acc
 
 All PAPSUOS code shall be made public in real-time.
 
-The organization shall have an upside down pyramid of rules with several levels but shall not have a pyramid of people with more than one level.
+The organization shall have an upside down pyramid of rules with several layers but shall not have a pyramid of people with more than one level.
 
 The organization bylaws shall be governed by definitive constitutional principles as described above.
 
