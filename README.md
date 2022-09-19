@@ -2,7 +2,7 @@
 
 PAPSUOS is a new PGP-Aware Public Secure Unlicensed Operating System. PAPSUOS shall be made available on PAPSUOS servers for the price offered by the user with a minimum of 10euros per year. PAPSUOS users shall comply to the street patent policy which implies total respect of the moral rights of all contributors.
 
-PAPSUOS shall have a Unix architecture, a unique package manager secured with PGP and a unique scalable core separation kernel compatible with one or several devices including QDCA microcircuits. PAPSUOS core separation kernel shall allow physically separated on one physical device, physically separated on several physical devices and simulated calcul distribution.
+PAPSUOS shall have a Unix architecture, a unique package manager secured with PGP and a unique scalable core separation kernel compatible with one or several devices including QDCA microcircuits. PAPSUOS core separation kernel shall allow physically separated on one physical device, physically separated on several physical devices and simulated distribution.
 
 The package manager shall allow to sandbox any application or package with one or several of its dependencies.
 
@@ -35,3 +35,60 @@ The organization shall have an upside down pyramid of rules with several layers 
 The organization bylaws shall be governed by definitive constitutional principles as described above.
 
 (1) https://www.nist.gov/itl/ssd/software-quality-group/binary-code-scanners
+
+
+# Immediate needs:
+
+
+1.analysis of the existing abstraction layers between hardware and software, in particular the OS
+
+Lynx developped a separation kernel, can it be imitated or integrated ? Does it allow several equipments to be connected, is the code available ?
+
+
+2.gather the first layer of assembly code in each OS and abstraction layer analyzed
+
+
+3.design a scalable abstraction layer which communicates in assembly code in all sides
+
+
+All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool.
+
+
+4.design a tool linked to a database which allows creation of a core separation kernel
+
+
+5.design the core separation kernel
+
+
+Each hardware driver shall be isolated in a separate read only partition to prevent privilege escalations
+
+
+
+If decision is made to start from zero:
+
+
+# Definition domains:
+
+
+In order to not destroy too fast bad language habits triggered by business knowledge compartmentalization, it appears useful to precise different domains of definition: separation kernel, modules
+
+
+# Definitions:
+
+
+Device: any physical or virtual device which can be addressed in assembly
+
+
+DevicePhysical: any physical equipment with at least one DeviceInterface
+
+
+DevicePhysicalIsolated: any physical equipment with at least one DeviceInterface which can be totally isolated with a EM shield
+
+
+DeviceVirtual: any virtual equipment with at least one DeviceInterface
+
+
+DeviceInterface: any interface for communicating with a Device
+
+
+DeviceInterfaceAssembly: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, etc.)
