@@ -15,7 +15,7 @@ Immediate needs:
 
 # design a scalable abstraction layer which communicates in assembly code in all sides
 
-PAPSUOS shall have a modulable kernel, all the communications with the hardware and the separation of functions shall be addressed in assembly so that any device which is accessible via the bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool
+All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool.
 
 
 # design a tool linked to a database which allows creation of a core separation kernel
