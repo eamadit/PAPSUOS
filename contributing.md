@@ -40,16 +40,19 @@ In order to not destroy too fast bad language habits triggered by business knowl
 # Definitions:
 
 
-Device: any physical or virtual equipment
+Device: any physical or virtual device which can be addressed in assembly
 
 
-DevicePhysical: any physical equipment with a DeviceInterface
+DevicePhysical: any physical equipment with at least one DeviceInterface
 
 
-DeviceVirtual: any virtual equipment with a DeviceInterface
+DevicePhysicalIsolated: any physical equipment with at least one DeviceInterface which can be totally isolated with a EM shield
 
 
-DeviceInterface: any interface for communicating with a Device:
+DeviceVirtual: any virtual equipment with at least one DeviceInterface
+
+
+DeviceInterface: any interface for communicating with a Device
 
 
 DeviceInterfaceAssembly: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, etc.)
