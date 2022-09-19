@@ -1,6 +1,15 @@
 You are free to bring your brick until rules are designed
 
 
+Definitions:
+
+
+Device: any physical equipment with a DeviceInterface
+
+
+DeviceInterface: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, etc.)
+
+
 Immediate needs:
 
 
