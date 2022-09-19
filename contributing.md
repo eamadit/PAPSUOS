@@ -1,36 +1,50 @@
 You are free to bring your brick until rules are designed
 
 
-Definitions:
+
+# Definitions:
 
 
-Device: any physical equipment with a DeviceInterface
+Device: any physical or virtual equipment
 
 
-DeviceInterface: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, etc.)
+DevicePhysical: any physical equipment with a DeviceInterface
 
 
-Immediate needs:
+DeviceVirtual: any virtual equipment with a DeviceInterface
 
 
-# analysis of the existing abstraction layers between hardware and software, in particular the OS
+DeviceInterface: any interface for communicating with a Device:
 
 
-# gather the first layer of assembly code in each OS and abstraction layer analyzed
+DeviceInterfaceAssembly: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, etc.)
+
+
+
+
+# Immediate needs:
+
+
+1.analysis of the existing abstraction layers between hardware and software, in particular the OS
+
+
+2.gather the first layer of assembly code in each OS and abstraction layer analyzed
 
 
 
 
 
-# design a scalable abstraction layer which communicates in assembly code in all sides
+3.design a scalable abstraction layer which communicates in assembly code in all sides
+
 
 All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool.
 
 
-# design a tool linked to a database which allows creation of a core separation kernel
+4.design a tool linked to a database which allows creation of a core separation kernel
 
 
-# design the core separation kernel
+5.design the core separation kernel
+
 
 Each hardware driver shall be isolated in a separate read only partition to prevent privilege escalations
 
