@@ -2,7 +2,7 @@
 
 PAPSUOS is a new PGP-Aware Public Secure Unlicensed Operating System. PAPSUOS shall be made available on PAPSUOS servers for the price offered by the user with a minimum of 10euros per year. PAPSUOS users shall comply to the street patent policy which implies total respect of the moral rights of all contributors.
 
-PAPSUOS shall have a Unix architecture, a unique package manager secured with PGP and a unique scalable core separation kernel compatible with one or several devices including QDCA microcircuits. PAPSUOS core separation kernel shall allow physically separated on one physical device, physically separated on several physical devices and simulated distribution.
+PAPSUOS shall have a Unix architecture, a unique package manager secured with PGP and a unique scalable core separation kernel compatible with one or several devices including QDCA microcircuits. PAPSUOS core separation kernel shall allow physically separated on one physical device, physically separated on several physical devices and/or virtualized distribution.
 
 The package manager shall allow to sandbox any application or package with one or several of its dependencies.
 
@@ -14,11 +14,13 @@ No package containing any vulnerable binary shall be accepted (1).
 
 The organization shall not host any third-party closed or open source package.
 
-The core separation kernel shall be written in assembly and its functions shall be limited to the functions offered by the hardware.
+The core separation kernel shall be written in assembly. All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool.
 
 The core separation kernel functions shall then be classified according to the hardware capabilities directly detected in order for the core separation kernel creation tool to offer different separation options including full customization with "loss of liability" warning.
 
-No interfacing option for any other lower abstraction level shall be offered.
+No interfacing option for any other lower abstraction level shall be offered without a loss of liability warning.
+
+Each hardware driver shall be isolated in a separate read only partition to prevent privilege escalations.
 
 The core separation kernel shall allow interfacing with higher abstraction level separation kernel hypervisors like LynxSecure and Clover.
 
@@ -51,16 +53,13 @@ Lynx developped a separation kernel, can it be imitated or integrated ? Does it 
 3.design a scalable abstraction layer which communicates in assembly code in all sides
 
 
-All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool.
-
-
 4.design a tool linked to a database which allows creation of a core separation kernel
 
 
 5.design the core separation kernel
 
 
-Each hardware driver shall be isolated in a separate read only partition to prevent privilege escalations
+
 
 
 
