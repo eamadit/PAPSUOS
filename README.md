@@ -14,7 +14,7 @@ No package containing any vulnerable binary shall be accepted (1).
 
 The organization shall not host any third-party closed or open source package.
 
-The core separation kernel shall be written in assembly. All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool.
+The core separation kernel shall be written in assembly. All the communications with the hardware shall be addressed in assembly so that any device which is accessible via its bootloader can be seen from a linux device on which runs the first version of the separation kernel creation tool which allows the separation of functions between one or several devices seen from the separation kernel creation tool. If run on PAPSUOS separation kernel, Linux kernel shall be seen as a module.
 
 The core separation kernel functions shall then be classified according to the hardware capabilities directly detected in order for the core separation kernel creation tool to offer different separation options including full customization with "loss of liability" warning.
 
