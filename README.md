@@ -93,4 +93,4 @@ DeviceVirtual: any virtual equipment with at least one DeviceInterface
 DeviceInterface: any interface for communicating with a Device
 
 
-DeviceInterfaceAssembly: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, etc.)
+DeviceInterfaceAssembly: any interface for communicating in assembly with the hardware of a device (COM, USB, bootloader, MAC interface etc.)
