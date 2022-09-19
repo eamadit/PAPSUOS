@@ -59,6 +59,9 @@ Lynx developped a separation kernel, can it be imitated or integrated ? Does it 
 5.design the core separation kernel
 
 
+6. Analyze the vaccines QDCA microcircuits MAC bluetooth interfaces, people want to huddle against the kernel.
+
+
 
 
 
